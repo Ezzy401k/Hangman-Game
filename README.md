@@ -1,2 +1,2 @@
 # Hangman Game
- the hangman game in python
+day 7 of 100 day python coding challenge
