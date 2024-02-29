@@ -52,3 +52,4 @@ while not display == chosen_word:
         print(f"You have already guessed {list(set(priveous))}")
     priveous += guess
     print(stages[life])
+input("Tap Enter to EXIT!")
