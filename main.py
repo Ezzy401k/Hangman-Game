@@ -43,13 +43,17 @@ while not display == chosen_word:
               print("You Lose!")
               break
       
-
+        # show the letters together.
       print(f"{' '.join(display)}")
-      
+      # if the final word and the chosen word are the same your win will be displayed.
       if display == chosen_word:
           print("You Win!")
+
+    # If the user inputs the same letter show this text.
     else:
         print(f"You have already guessed {list(set(priveous))}")
+    # Add the new inputted letter to the list.
     priveous += guess
+    # shows how many lives are left.
     print(stages[life])
 input("Tap Enter to EXIT!")
